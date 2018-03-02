@@ -1,0 +1,48 @@
+--############## INSERTION DES N-UPLES DE LA TABLE LESSPECTACLES ##############
+insert into LESSPECTACLES values ('101', 'Cats');
+insert into LESSPECTACLES values ('102', 'Metallica');
+insert into LESSPECTACLES values ('103', 'Manu Chao');
+insert into LESSPECTACLES values ('104', 'Cirque du Soleil');
+insert into LESSPECTACLES values ('105', 'Deep Purple');
+insert into LESSPECTACLES values ('106', 'Les Insus');
+insert into LESSPECTACLES values ('107', 'Renaud');
+insert into LESSPECTACLES values ('108', 'Ibrahim Maalouf');
+insert into LESSPECTACLES values ('109', 'Brian Ferry');
+insert into LESSPECTACLES values ('110', 'Rolling Stones');
+--############## INSERTION DES N-UPLES DE LA TABLE LESREPRESENTATIONS ########
+insert into LESREPRESENTATIONS values ('101', '06-NOV-19',1000);
+insert into LESREPRESENTATIONS values ('102', '20-DEC-19',1500);
+insert into LESREPRESENTATIONS values ('104', '14-JAN-20',500);
+insert into LESREPRESENTATIONS values ('104', '20-FEB-20',800);
+insert into LESREPRESENTATIONS values ('104', '21-FEB-20',100);
+insert into LESREPRESENTATIONS values ('104', '22-FEB-20',600);
+insert into LESREPRESENTATIONS values ('105', '12-MAR-19',700);
+insert into LESREPRESENTATIONS values ('105', '02-APR-19',500);
+insert into LESREPRESENTATIONS values ('106', '23-MAY-19',1000);
+insert into LESREPRESENTATIONS values ('106', '13-JUN-19',500);
+insert into LESREPRESENTATIONS values ('106', '03-JUL-19',200);
+insert into LESREPRESENTATIONS values ('107', '24-AUG-19',300);
+insert into LESREPRESENTATIONS values ('107', '14-SEP-19',500);
+insert into LESREPRESENTATIONS values ('107', '04-OCT-19',1000);
+insert into LESREPRESENTATIONS values ('108', '25-NOV-18',1000);
+insert into LESREPRESENTATIONS values ('109', '15-DEC-18',300);
+insert into LESREPRESENTATIONS values ('110', '05-JAN-20',400);
+insert into LESREPRESENTATIONS values ('110', '26-FEB-20',500);
+--############## INSERTION DES N-UPLES DE LA TABLE LESRESERVATIONS ###########
+insert into LESRESERVATIONS values (1,'104', '22-FEB-20',10);
+insert into LESRESERVATIONS values (1,'106', '23-MAY-19',20);
+insert into LESRESERVATIONS values (2,'104', '22-FEB-20',15);
+insert into LESRESERVATIONS values (2,'105', '12-MAR-19',1);
+insert into LESRESERVATIONS values (3,'105', '02-APR-19',12);
+insert into LESRESERVATIONS values (3,'106', '23-MAY-19',13);
+insert into LESRESERVATIONS values (4,'106', '13-JUN-19',5);
+insert into LESRESERVATIONS values (5,'106', '03-JUL-19',60);
+insert into LESRESERVATIONS values (1,'107', '24-AUG-19',18);
+insert into LESRESERVATIONS values (2,'107', '14-SEP-19',19);
+insert into LESRESERVATIONS values (3,'107', '04-OCT-19',20);
+insert into LESRESERVATIONS values (4,'108', '25-NOV-18',200);
+insert into LESRESERVATIONS values (5,'109', '15-DEC-18',70);
+insert into LESRESERVATIONS values (1,'110', '05-JAN-20',80);
+insert into LESRESERVATIONS values (2,'110', '26-FEB-20',120);
+insert into LESRESERVATIONS values (3,'108', '25-NOV-18',10);
+insert into LESRESERVATIONS values (1,'109', '15-DEC-18',30);
